@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #444;
+  line-height: 1.5;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav a:hover {
+  background-color: #444;
+}
+
+/* Main styles */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+article {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 5px solid #ccc;
+  padding-left: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #eee;
+}
+
+/* Contact form styles */
+form {
+  max-width: 500px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #444;
+}
+</style>
+    <title>Hotel Example</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to tura Hotel </h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="bestfood.html">bestfood.html</a></li>
+                <li><a href="register.html">register</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <article>
+                <h2>About Us</h2>
+                <p>Hotel Example is a luxurious hotel located in the heart of the city. Our hotel features a wide range of amenities to suit the needs of all our guests.</p>
+                <img src="img/header-bg.jpg" alt="Hotel Example">
+                <blockquote>"The perfect place to stay when visiting the city."</blockquote>
+                <p><em>- Travel Magazine</em></p>
+            </article>
+        </section>
+        <section id="rooms">
+            <article>
+                <h2>Rooms</h2>
+                <p>Our hotel offers a variety of rooms to choose from, including:</p>
+                <ul>
+                    <li>Standard Room</li>
+                    <li>Deluxe Room</li>
+                    <li>Suite</li>
+                </ul>
+                <p>Each room is equipped with:</p>
+                <ol>
+                    <li>Flat-screen TV</li>
+                    <li>Mini-fridge</li>
+                    <li>Complimentary Wi-Fi</li>
+                    <li>En-suite bathroom</li>
+                </ol>
+            </article>
+        </section>
+        <section id="services">
+            <article>
+                <h2>Services</h2>
+                <p>We offer a wide range of services to make your stay as comfortable as possible, including:</p>
+                <table>
+                    <tr>
+                        <th>Service</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>Room Service</td>
+                        <td>24-hour room service available</td>
+                    </tr>
+                    <tr>
+                        <td>Concierge</td>
+                        <td>Our concierge can help you plan your visit to the city</td>
+                    </tr>
+                    <tr>
+                        <td>Pool</td>
+                        <td>Our hotel features an indoor swimming pool</td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+        <section id="contact">
+            <article>
+                <h2>Contact Us</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message"></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2021 Hotel Example. All rights reserved.</p>
+    </footer>
+</body>
+</html>
